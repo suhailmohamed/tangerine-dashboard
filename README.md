@@ -1,5 +1,4 @@
-## 💻 Dashboard UI [![Netlify Status](https://api.netlify.com/api/v1/badges/fd8d0f6c-e31c-475b-8af8-784c3c6caddd/deploy-status)](https://app.netlify.com/sites/tangerine-dashboard/deploys)
-
+## 💻 Dashboard UI [![Netlify Status](https://api.netlify.com/api/v1/badges/fd8d0f6c-e31c-475b-8af8-784c3c6caddd/deploy-status)](https://app.netlify.com/sites/tange-dashboard/deploys)
 A simple Vite + React + TailwindCSS Project
 
 ## 🚀 Demo
