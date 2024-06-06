@@ -101,7 +101,7 @@ function App() {
       type: 'fetch',
       value: 'https://gw.alipayobjects.com/os/bmw-prod/55424a73-7cb8-4f79-b60d-3ab627ac5698.json',
     },
-    xField: (d) => new Date(d.year),
+    xField: (d: { year: string | number | Date; }) => new Date(d.year),
     yField: 'value',
     sizeField: 'value',
     shapeField: 'trail',
@@ -123,9 +123,9 @@ function App() {
       text: 'frequency',
       formatter: '.1%',
       style: {
-        textAnchor: (d) => (+d.frequency > 0.008 ? 'right' : 'start'),
-        fill: (d) => (+d.frequency > 0.008 ? '#fff' : '#000'),
-        dx: (d) => (+d.frequency > 0.008 ? -5 : 5),
+        textAnchor: (d: { frequency: string | number; }) => (+d.frequency > 0.008 ? 'right' : 'start'),
+        fill: (d: { frequency: string | number; }) => (+d.frequency > 0.008 ? '#fff' : '#000'),
+        dx: (d: { frequency: string | number; }) => (+d.frequency > 0.008 ? -5 : 5),
       },
     },
     axis: {
